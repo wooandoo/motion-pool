@@ -154,7 +154,7 @@ module Bacon
         puts "#{spaces}#{@@description.green}"
       else
         puts "#{spaces}#{@@description.red}"
-        puts "#{spaces}  #{error.reset}"
+        # puts "#{spaces}  #{error.reset}"
         puts ErrorLog.strip.gsub(/^/, "#{spaces}  ")  if Backtraces
       end
     end
