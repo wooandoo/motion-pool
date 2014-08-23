@@ -1,6 +1,6 @@
 # motion-pool
 
-TODO: Write a gem description
+A pool for RubyMotion.
 
 ## Installation
 
@@ -19,10 +19,11 @@ Or install it yourself as:
 ## Test
 
 	$ PLATFORM=osx rake spec output=colorized2
+	$ PLATFORM=ios rake spec output=colorized2
 
 ## Usage
 
-TODO: Write usage instructions here
+See spec.
 
 ## Contributing
 

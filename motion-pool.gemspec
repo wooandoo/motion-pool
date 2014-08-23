@@ -1,18 +1,19 @@
 # -*- encoding: utf-8 -*-
-VERSION = "0.0.1b"
+VERSION = "0.0.1"
 
 Gem::Specification.new do |spec|
   spec.name          = "motion-pool"
   spec.version       = VERSION
   spec.authors       = ["Frédéric Mascaro"]
   spec.email         = ["frederic.mascaro@wo-oo.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
-  spec.license       = ""
+  spec.description   = %q{A pool for RubyMotion.}
+  spec.summary       = %q{A pool for RubyMotion}
+  spec.homepage      = "https://github.com/wooandoo/motion-pool"
+  spec.license       = "BSD3"
 
   files = []
   files << 'README.md'
+  files << 'LICENSE'
   files.concat(Dir.glob('lib/**/*.rb'))
   files.concat(Dir.glob('motion/**/*.rb'))
   
